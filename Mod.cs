@@ -3,12 +3,13 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-namespace ExampleModNS
+namespace myCardsNS
 {
-    public class ExampleMod : Mod
+    public class myCards : Mod
     {
         public override void Ready()
         {
+            WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.CookingIdea, "examplemod_blueprint_golden_berry", 1);
             Logger.Log("Ready!");
         }
     }

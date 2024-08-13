@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/blueprint.schema.json",
+    "id": "myCards_blueprint_golden_berry",
+    "nameTerm": "myCards_golden_berry_name",
+    "group": "Cooking",
+    "subprints": [
+      {
+        "RequiredCards": "gold_bar, berry",
+        "ResultCard": "myCards_golden_berry",
+
+        "ExtraResultCards": "myCards_golden_berry",
+        "Time": 5,
+        "StatusTerm": "myCards_idea_golden_berry_status"
+      }
+    ]
+  }
